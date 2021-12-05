@@ -8,7 +8,6 @@ export const styles = StyleSheet.create({
   headerWrap: {
     backgroundColor: "white",
     padding: 15,
-    borderWidth: 1,
     paddingBottom: 75,
   },
 });

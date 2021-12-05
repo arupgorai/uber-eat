@@ -1,6 +1,6 @@
 import React from "react";
-import { SafeAreaView, View } from "react-native";
-import { HeaderTabs, SearchBar } from "../../components";
+import { SafeAreaView, View, Text } from "react-native";
+import { Categories, HeaderTabs, SearchBar } from "../../components";
 
 import { styles } from "./styles.home";
 
@@ -11,6 +11,8 @@ const Home = () => {
         <HeaderTabs />
         <SearchBar />
       </View>
+      <Categories />
+      <Text>hello</Text>
     </SafeAreaView>
   );
 };

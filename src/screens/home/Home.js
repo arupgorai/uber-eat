@@ -1,13 +1,16 @@
 import React from "react";
-import { SafeAreaView } from "react-native";
-import { HeaderTabs } from "../../components";
+import { SafeAreaView, View } from "react-native";
+import { HeaderTabs, SearchBar } from "../../components";
 
 import { styles } from "./styles.home";
 
 const Home = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <HeaderTabs />
+      <View style={styles.headerWrap}>
+        <HeaderTabs />
+        <SearchBar />
+      </View>
     </SafeAreaView>
   );
 };

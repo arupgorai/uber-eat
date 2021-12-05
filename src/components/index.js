@@ -1,3 +1,4 @@
 import HeaderTabs from "./header";
+import SearchBar from "./search-bar";
 
-export { HeaderTabs };
+export { HeaderTabs, SearchBar };
